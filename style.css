@@ -1,0 +1,30 @@
+.major, .min {
+    letter-spacing:  1.4rem;
+}
+
+.major {
+    padding-top: 90px;  
+}
+/**for the third section**/
+.upGap {
+    padding-top: 9rem;
+}
+
+.upGap-smaller {
+    padding-top: 5rem;
+}
+
+/**for the fifth section image spacing**/
+.ending-space {
+    padding-right: 2rem !important;
+} 
+
+@media (max-width: 768px) {
+    .upGap {
+        padding-top: 3rem;
+    }
+
+    .upGap-smaller {
+        padding-top: 4rem;
+    }
+}
