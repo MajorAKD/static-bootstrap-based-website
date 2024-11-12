@@ -23,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="index.html" href="#">Home</a>
+                <a class="nav-link active text-light" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="about.html">About Us</a>
@@ -32,17 +32,16 @@
                 <a class="nav-link text-light" href="services.html">Our Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contact Us</a>
+                <a class="nav-link text-light" aria-current="page" href="#">Contact Us</a>
               </li>   
             </ul>       
           </div>
         </div>
       </nav>
-
       <!--first section begins-->
       <section>
         <div class="container upGap-smaller mb-5">
-          <h2 style="letter-spacing: 17px;" class="text-center">About Us</h2>
+          <h2 style="letter-spacing: 17px;" class="text-center fs-2">About Us</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam et laudantium voluptatibus! Exercitationem, quo officiis.
             Neque, incidunt quos asperiores modi quibusdam exercitationem aperiam animi deleniti voluptas itaque, quod saepe cum?
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, aperiam! Non, excepturi vero sint at fuga minus. Deserunt harum voluptas aliquam natus recusandae. 
@@ -51,9 +50,34 @@
         </div>
       </section>
       <!--end of first section-->
-
+    </br>
       <!--second section begins-->
-     
+     <section>
+      <div class="container my-5">
+        <h2 class="fs-4  text-center mt-5" style="letter-spacing: 17px;">DROP US A MESSAGE</h2>
+        <form>
+          <div class="row">
+            <div class="col-md-4 col-lg-6 mb-2">
+              <div><label class="py-2" for="fname">First Name</label></div>
+              <div><input class="w-100 p-2 border border-light-subtle" type="name" id="fname"></div>
+            </div>
+            <div class="col-md-4 col-lg-6 mb-2">
+              <div><label class="py-2" for="sname">Surname</label></div>
+              <div><input class="w-100 p-2 border border-light-subtle" type="name" id="sname"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div><label class="py-2" for="email">Email</label></div>
+            <div><input class="w-100 border p-2 border-light-subtle" type="name" id="email"></div>
+          </div>
+          <div class="row">
+            <div><label class="py-2" for="msg">Message</label></div>
+            <div><textarea class="w-100 border p-2 border-light-subtle" rows="5" id="msg"></textarea></div>
+          </div>
+          <div class="d-flex mt-4 justify-content-center"><button type="button" class="btn btn-outline-success">Message Now</button></div>
+        </form>
+      </div>
+     </section>
       <!--end of second section-->
 
     
