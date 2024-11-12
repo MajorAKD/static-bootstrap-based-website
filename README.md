@@ -13,3 +13,4 @@ Technologies used in this project are:
 About 95% of the styling done in this project was purely achieved using Bootstrap.
 
 visit this link to view the website: https://majorakd.github.io/static-bootstrap-based-website/
+or follow this link: https://static-bootstrap-based-website.vercel.app/
